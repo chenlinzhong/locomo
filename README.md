@@ -5,6 +5,19 @@ Test the performance of the locomo dataset on different models
 
 # how to use ?
 
+Configure model parameters in the config directory, for example gpt-4.1
+```gpt-4.1.json
+{
+    "openai_base_url":"https://sg.xxx.com/v1",
+    "api_key":"your-api-key",
+    "model":"gpt-4.1",
+    "dataset":"dataset/locomo10.json",
+    "output_dir":"output/gpt-4.1",
+    "is_azure_openai":0,
+    "batch_size":20
+}
+```
+then run commbend
 >  make benchmark MODEL=gpt-4.1
 
 the result will save to  **\${output_dir}/\${model}_score.txt**
