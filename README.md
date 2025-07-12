@@ -36,9 +36,3 @@ bleu_score    0.4817
 f1_score      0.5792
 llm_score     0.7545
 ```
-
-# Visualization
-
-You can paste the output into the output box of this link, and the results will be visualized automatically
-
-[https://yuanbao.tencent.com/sc/dE3IdAJTaHISgB7](https://yuanbao.tencent.com/sc/dE3IdAJTaHISgB7)
